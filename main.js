@@ -56,7 +56,7 @@ function displayLabels(){
 //results
 function results(){
     if(playerSelection == computerSelection){
-        winnerLabel.innerHTML = ("You tried, try again.");
+        winnerLabel.innerHTML = ("You tied, try again.");
     }
 
     else if((playerSelection == 'Rock' && computerSelection == 'Scissors') ||
@@ -65,6 +65,6 @@ function results(){
         winnerLabel.innerHTML = ("Congratulations, you win!")
     }
     else{
-        winnerLabel.innerHTML = ("You Loose, try again.");
+        winnerLabel.innerHTML = ("You loose, try again.");
     }
 }

@@ -1,0 +1,57 @@
+/*
+Color for gold #B39D76
+Color for icon Inside #61615F
+Color for background #272727
+
+
+*/
+
+body{
+    background: #272727;
+    font-family: 'Abel', sans-serif;
+    width: 100%;
+}
+
+h1{
+    font-size: 3.4rem;
+    color: #B39D76;
+    text-align: center;
+    margin-top: 4em;
+}
+.container{
+    background: #B39D76;
+    width:450px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+
+.container-score{
+    background: #61615F;
+    margin: 2.5em 0em;
+    position: relative;
+    
+    border-radius: 20px;
+    
+}
+.far{
+    color: #B39D76;
+}
+
+label{
+    font-size: 2em;
+    color: #B39D76;
+   
+}
+button{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin: 2em 1em;
+    background: #61615F;
+    border-color: #272727;
+    border-width: 5px;
+    padding: 0;
+}

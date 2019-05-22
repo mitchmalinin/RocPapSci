@@ -61,6 +61,30 @@ button{
     outline: none;
 
 }
+
+.container-set{
+    margin-top: 3em;
+}
+
+.setLabel{
+    background: #B39D76;
+    width:450px;
+    border-radius: 30px;
+    border-color: #61615F;
+    border-width: 5px;
+    border-style: solid;
+    margin: auto;
+    text-align: center; 
+    width: 300px;
+    
+}
+
+.setLabel label{
+    color: #272727;
+    font-size: 1.5em;
+}
+
+
 button:hover{
     background: #272727;
     transition: all .4s ease;
